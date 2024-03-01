@@ -5,32 +5,25 @@ import Image from "next/image";
 const Featured = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <h1>
-          <b>Hey, Mohan here!!</b> Discover my stories and creative ideas
-        </h1>
+    <h1 className={styles.title}>
+      <b>Hey, lama dev here!</b> Discover my stories and creative ideas.
+    </h1>
+    <div className={styles.post}>
+      <div className={styles.imgContainer}>
+        <Image src="/p1.jpeg" alt="" fill className={styles.image} />
       </div>
-
-      <div className={styles.titlecontainer}>
-        <div className={styles.Imagegallery}>
-          <Image src="/p1.jpeg" alt="" fill className={styles.image} />
-        </div>
-        <div className={styles.sentence}>
-          <div className={styles.posttitle}>
-            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
-          </div>
-          <div className={styles.postdescription}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At dicta,
-              laboriosam placeat nesciunt accusamus tempora veritatis! Sint sed
-              deleniti vitae esse ex, incidunt itaque amet molestias dolores
-              quam beatae atque!
-            </p>
-          </div>
-          <button className={styles.ctn}>Read more</button>
-        </div>
+      <div className={styles.textContainer}>
+        <h1 className={styles.postTitle}>Lorem ipsum dolor sit amet alim consectetur adipisicing elit.</h1>
+        <p className={styles.postDesc}>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Cupiditate, quam nisi magni ea laborum inventore voluptatum
+          laudantium repellat ducimus unde aspernatur fuga. Quo, accusantium
+          quisquam! Harum unde sit culpa debitis.
+        </p>
+        <button className={styles.button}>Read More</button>
       </div>
     </div>
+  </div>
   );
 };
 
