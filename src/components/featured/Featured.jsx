@@ -16,15 +16,15 @@ const Featured = () => {
         </div>
         <div className={styles.textContainer}>
           <h1 className={styles.postTitle}>
-            {" "}
-            "Coastal Peaks: A Quest Along the Sea and Mountains"
+       
+            Coastal Peaks: A Quest Along the Sea and Mountains
           </h1>
           <p className={styles.postDesc}>
             Embark on an unforgettable adventure along the rugged coastlines and
             towering peaks where the sea meets the mountains. Discover hidden
             coves, majestic cliffs, and breathtaking vistas as you navigate the
             untamed beauty of this enchanting landscape. Join us as we journey
-            to the edge of the world and explore the harmony of nature's most
+            to the edge of the world and explore the harmony of natures most
             captivating realms.
           </p>
           {/* <button className={styles.button}>Read More</button> */}
