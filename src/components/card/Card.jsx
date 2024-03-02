@@ -11,7 +11,7 @@ const Card = () => {
 
         <div className={styles.textcontainer}>
           <div className={styles.details}>
-            <span className={styles.date}>11.02.2024</span>
+            <span className={styles.date}>11.02.2024 - </span>
             <span className={styles.category}>CULTURE</span>
           </div>
 
