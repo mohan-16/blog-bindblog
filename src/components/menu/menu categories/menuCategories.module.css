@@ -1,6 +1,6 @@
 .categoryList {
     margin-top: 35px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -11,27 +11,45 @@
     border-radius: 10px;
     font-size: 14px;
   }
-  
+
   .categoryItem.style {
-    background-color: #57c4ff31;
+    background-color: #45b8f631;
   }
   
+  .categoryItem.style:hover {
+    background-color: #7dd2ff31;
+  }
   .categoryItem.fashion {
-    background-color: #da85c731;
+    background-color: #fd50d731;
   }
-  
+  .categoryItem.fashion:hover {
+    background-color: #f78fe031;
+  }
   .categoryItem.food {
-    background-color: #7fb88133;
+    background-color: #69f66e33;
+  }
+  .categoryItem.food:hover {
+    background-color: #a2f6a333;
   }
   
   .categoryItem.travel {
-    background-color: #ff795736;
+    background-color: #ff7a5936;
+  }
+  .categoryItem.travel:hover {
+    background-color: #ffad9836;
   }
   
   .categoryItem.culture {
-    background-color: #ffb04f45;
+    background-color: #feb05245;
+  }
+  .categoryItem.culture:hover {
+    background-color: #ffcf9445;
   }
   
   .categoryItem.coding {
-    background-color: #5e4fff31;
+    background-color: #675afb31;
   }
+  .categoryItem.coding:hover {
+    background-color: #a098f831;
+  }
+  
